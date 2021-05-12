@@ -1,6 +1,10 @@
 # Toncalculator
 It is a simple calulator for addition, subtraction, multiplication,division, squire, to the power, sqire root, log, factorial, sin, cos, tan, cot, sec, cosec, nCr etc.
-There are many mathmatical conversions
+There are many mathmatical conversions.
+## How To Use
+### Installation:
+**Firstly** you need to install the [```Toncalculator```](https://pypi.org/project/Toncalculator/) module py **```pip install Toncalculator```** command.
+## Codes:
 ```python
 def add(x,y):
     #return x additioned by y
