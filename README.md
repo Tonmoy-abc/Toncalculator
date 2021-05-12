@@ -4,76 +4,94 @@ iThere are many mathmatical conversions.
 ## How To Use
 ### Installation:
 **Firstly** you need to install the [```Toncalculator```](https://pypi.org/project/Toncalculator/) module by **```pip install Toncalculator```** command.
+Then you need to make a `.py` file or open python interpreter. **Finally** you can write you code.
+### Exammple
+```python
+import toncalculator
+
+toncalculator.add(2,6)
+
+```
 ## Codes:
-### Addition:
-``` add() ``` function is uaed to add two numbers ```add(x,y)``` the function needs two compulsoy parameter. 
+## Addition:
+``` add() ``` method is uaed to add two numbers ```add(x,y)``` the function needs two compulsoy parameter. 
 #### **Example:**
 ```python
 result(add(1,2))
 
 Output: 3
 ```
-### Subtraction:
-``` sub() ``` function is used to subtract 1st parameter by 2nd parameter. 
+## Subtraction:
+``` sub() ``` method is used to subtract 1st parameter by 2nd parameter. 
 #### **Example:** 
 ```python
 result(sub(2,1))
 
 Output : 1  
 ```
-### Multiplication:
-``` mul() ``` function is used to multiply two numberas.
+## Multiplication:
+``` mul() ``` methed is used to multiply two numberas.
 #### **Example:** 
 ```python
 result(mul(2,3))
 
 Output : 6
 ```
-### Division:
-``` div() ``` function is used to divie 1st number by 2nd number.
+## Division:
+``` div() ``` method is used to divie 1st number by 2nd number.
 #### **Example:** 
 ```python
 result(dev(10,2))
 
 Output : 5
 ```
-### Squire:
-``` squire() ``` function is used to squire any numbers ```
+## Squire:
+``` squire() ``` method is used to squire any numbers ```
 #### **Example:** 
 ```python
 result(squire(2))
 
 Output : 4
 ```
-### To The Power:
-``` power() ``` function is used as 2nd parameter to the power of 1st parameter.
+## To The Power:
+``` power() ``` method is used as 2nd parameter to the power of 1st parameter.
 #### **Example:** 
 ```python
 result(power(2,4))
 
 Output : 16
 ```
-### Sqire Root:
-``` sqroot ``` function is used to squire root a number.
+## Sqire Root:
+``` sqroot() ``` method is used to squire root a number.
 #### **Example:** 
 ```python
 result(sqroot(16))
 
 Output : 4    
 ```
+## Log:
+``` log() ``` method returns the natural logarithm of a number, or the logarithm of number to base.
+### Syntx:
 ```python
-def log(x,y=None):
-    """
-    Here x ist number and y is te base.Returns natural
-    log if 1 argument is passed and log with
-    specified base if 2 arguments are passed
-
-    """
-    if y != None:
-        return math.log(x,y)
-    else:
-        return math.log(x)
+result(log(x, base))    
 ```
+### Parameter Values
+| Parameter | Description |
+| --- | --- |
+| x | Required. Specifies the value to calculate the logarithm for. If the value is 0 or a negative number, it returns a ValueError. If the value is not a number, it returns a TypeError |
+| base | Optional. The logarithmic base to use. Default is 'e' |
+#### Example:
+```python
+log(10)
+
+Output : 2.302585..............
+```
+## Factorial:
+The factorial() method returns the factorial of a number.
+
+Note: This method only accepts positive integers.
+
+The factorial of a number is the sum of the multiplication, of all the whole numbers, from our specified number down to 1. For example, the factorial of 6 would be 6 x 5 x 4 x 3 x 2 x 1 = 720
 ```python
 def factorial(x):
     #return facetorial of x
