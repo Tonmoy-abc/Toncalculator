@@ -1,44 +1,65 @@
 # Toncalculator
 It is a simple calulator for addition, subtraction, multiplication,division, squire, to the power, sqire root, log, factorial, sin, cos, tan, cot, sec, cosec, nCr etc.
-There are many mathmatical conversions.
+iThere are many mathmatical conversions.
 ## How To Use
 ### Installation:
-**Firstly** you need to install the [```Toncalculator```](https://pypi.org/project/Toncalculator/) module py **```pip install Toncalculator```** command.
+**Firstly** you need to install the [```Toncalculator```](https://pypi.org/project/Toncalculator/) module by **```pip install Toncalculator```** command.
 ## Codes:
+### Addition:
+``` add() ``` function is uaed to add two numbers ```add(x,y)``` the function needs two compulsoy parameter. 
+#### **Example:**
 ```python
-def add(x,y):
-    #return x additioned by y
-    return x+y
+result(add(1,2))
+
+Output: 3
 ```
+### Subtraction:
+``` sub() ``` function is used to subtract 1st parameter by 2nd parameter. 
+#### **Example:** 
 ```python
-def sub(x,y):
-    #return x subtract by y
-    return x-y
+result(sub(2,1))
+
+Output : 1  
 ```
+### Multiplication:
+``` mul() ``` function is used to multiply two numberas.
+#### **Example:** 
 ```python
-def mul(x,y):
-    #reurn x multiplied by y
-    return x*y
+result(mul(2,3))
+
+Output : 6
 ```
+### Division:
+``` div() ``` function is used to divie 1st number by 2nd number.
+#### **Example:** 
 ```python
-def dev(x,y):
-    #return x divided by y
-    return x/y
+result(dev(10,2))
+
+Output : 5
 ```
+### Squire:
+``` squire() ``` function is used to squire any numbers ```
+#### **Example:** 
 ```python
-def squire(x):
-    #return squire of x
-    return x*x
+result(squire(2))
+
+Output : 4
 ```
+### To The Power:
+``` power() ``` function is used as 2nd parameter to the power of 1st parameter.
+#### **Example:** 
 ```python
-def power(x,y):
-    #return x to the power y
-    return x^y
+result(power(2,4))
+
+Output : 16
 ```
+### Sqire Root:
+``` sqroot ``` function is used to squire root a number.
+#### **Example:** 
 ```python
-def sqroot(x):
-    #return the sqire root of x
-    return math.sqrt(x)
+result(sqroot(16))
+
+Output : 4    
 ```
 ```python
 def log(x,y=None):
