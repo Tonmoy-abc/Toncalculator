@@ -30,11 +30,13 @@ def squire(x):
 def power(x,y):
     #return x to the power y
     return x^y
-
+```
+```python
 def sqroot(x):
     #return the sqire root of x
     return math.sqrt(x)
-
+```
+```python
 def log(x,y=None):
     """
     Here x ist number and y is te base.Returns natural
@@ -46,8 +48,8 @@ def log(x,y=None):
         return math.log(x,y)
     else:
         return math.log(x)
-
-
+```
+```python
 def factorial(x):
     #return facetorial of x
     factorial = 1
@@ -55,34 +57,41 @@ def factorial(x):
         for i in range (1,x+1):
             factorial = factorial * i
     return factorial
-
+```
+```python
 def sin(x):
     #return sin of x
     return math.sin(x)
-
+```
+```python
 def cos(x):
     #return cos of x
     return math.cos(x)
-
+```
+```python
 def tan(x):
     #return tan x
     return math.tan(x)
-
+```
+```python
 def cot(x):
     #return cot x
     cot = math.tan(x)
     return 1/cot
-
+```
+```python
 def sec(x):
     #return sec x
     sec = math.cos(x)
     return 1/sec
-
+```
+```python
 def cosec(x):
     #return cosec x
     cosec = math.sin(x)
     return 1/cosec
-
+```
+```python
 def nCr(n,r):
     """
     return the combination  is the method of selection of 'r' objects from 
@@ -90,7 +99,8 @@ def nCr(n,r):
     """
     ncr = factorial(n)/(factorial(r)*factorial(n-r))
     return ncr
-
+```
+```python
 #### Simple mathmathical conversion ####
 
 ## Angle Conversions ##
@@ -98,7 +108,8 @@ def degTored(x):
     #return x degree to radin
     red = (x*math.pi/180)
     return red
-
+```
+```python
 def redTodeg(x):
     #return x radian to degree
     deg = (x*180/math.pi)
