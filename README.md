@@ -6,12 +6,69 @@
   <details>
     <summary>Intro</summary>
     <ul> 
-        <li>Toncalculator </li>        
+        <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#toncalculator#">Toncalculator</a></li> 
+        <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#how-to-use">How To Use</a></li>       
+    </ul>  
+  </details>
+  <details>
+    <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#codes'>Codes</a></summary>
+    <ul>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
+      <li><a href=''></a></li>
     </ul>
   </details>
-</ul>
-<ul>
-  <li> markdown list 2</li>
 </ul>
 </details>
 
@@ -126,6 +183,7 @@ result(factorial(3)):
 
 Output : 6
 ```
+
 ## Sin:
 `sin()` method returns the sine of a number.
 
@@ -152,6 +210,7 @@ result(sin(degTored(90)))
 Output : 0 
 Output : 1
 ```
+
 ## Cos:
 `cos()` method returns the cosine of a number.
 
@@ -178,8 +237,9 @@ result(cos(degTored(180)))
 Output : 1
 Output : -1
 ```
+
 ## Tan:
-`tan()` method returns the tan of a number.
+`tan()` method returns the tangent of a number.
 
 **Note:** To find the tan of degrees, it must first be converted into radians with the `degTored()` method (see example below).
 
@@ -204,37 +264,115 @@ result(tan(degTored(10)))
 Output : 0
 Output : 0.176326......
 ```
+
+## Cot:
+`cot()` method returns the cotangent of a number.
+
+**Note:** To find the cotangent of degrees, it must first be converted into radians with the `degTored()` method (see example below).
+
+## Syntx:
 ```python
-def cot(x):
-    #return cot x
-    cot = math.tan(x)
-    return 1/cot
+cot(x)
 ```
-```python
-def sec(x):
-    #return sec x
-    sec = math.cos(x)
-    return 1/sec
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. The number to find the cotangent of. If the value is not a number, it returns a TypeError |
+
+#### Example:
+``` python
+# It returns normally cotangent of 0 redian 
+result(cot(0))
+# cot() returns the cotangent of redian.
+# degTored() convers dgree to redian 
+result(cot(degTored(10)))
+
+Output : Infinity
+Output : 5.6712818196......
 ```
+## Sec: 
+`sec()` method returns the secant of a number.
+
+**Note:** To find the secant of degrees, it must first be converted into radians with the `degTored()` method (see example below).
+
+## Syntx:
 ```python
-def cosec(x):
-    #return cosec x
-    cosec = math.sin(x)
-    return 1/cosec
+sec(x)
 ```
-```python
-def nCr(n,r):
-    """
-    return the combination  is the method of selection of 'r' objects from 
-    a set of 'n' objects where the order of selection does not matter
-    """
-    ncr = factorial(n)/(factorial(r)*factorial(n-r))
-    return ncr
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. The number to find the secant of. If the value is not a number, it returns a TypeError |
+
+#### Example:
+``` python
+# It returns normally secant of 0 redian 
+result(sec(0))
+# sec() returns the secant of redian.
+# degTored() convers dgree to redian 
+result(sec(degTored(180)))
+
+Output : 1
+Output : -1
 ```
+
+## cosec: 
+`cosec()` method returns the secant of a number.
+
+**Note:** To find the secant of degrees, it must first be converted into radians with the `degTored()` method (see example below).
+
+## Syntx:
 ```python
-#### Simple mathmathical conversion ####
+sec(x)
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. The number to find the cosecant of. If the value is not a number, it returns a TypeError |
+
+
+#### Example:
+``` python
+# It returns normally cosecant of 0 redian 
+result(sec(0))
+# cosec() returns the cosecant of redian.
+# degTored() convers dgree to redian 
+result(cosec(degTored(90)))
+
+Output : Infinity
+Output : 0
+
+```
+
+## nCr:
+`nCr()` method returns the nCr.
+
+**Note:** return the combination is the method of selection of 'r' objects from 
+a set of 'n' objects where the order of selection does not matter.
+
+## Syntx:
+```python
+nCr(n,r)
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| n | Required. Type integer  |
+| r | Required. Type integer  |
+
+```python
+result(nCr(9,3))
+
+Output : 84
+```
+# Mathmathical conversion
 
 ## Angle Conversions ##
+
+```python 
 def degTored(x):
     #return x degree to radin
     red = (x*math.pi/180)
