@@ -1,5 +1,20 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
+<details>
+<summary><a>Refarances</a></summary>
+<ul>
+  <details>
+    <summary>Intro</summary>
+    <ul> 
+        <li>Toncalculator </li>        
+    </ul>
+  </details>
+</ul>
+<ul>
+  <li> markdown list 2</li>
+</ul>
+</details>
+
 # Toncalculator
 It is a simple calulator for addition, subtraction, multiplication,division, squire, to the power, sqire root, log, factorial, sin, cos, tan, cot, sec, cosec, nCr etc.
 iThere are many mathmatical conversions.
