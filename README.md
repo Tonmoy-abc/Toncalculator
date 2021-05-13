@@ -17,7 +17,7 @@
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#subtraction'>Subtraction</a></li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#multiplication'>Multiplication</a></li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#division'>Division</a></li>
-      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#squire'>Squire</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#square'>Square</a></li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#to-the-power'>To The Power</a></li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#square-root'></a>Square Root</li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#log'>Log</a></li>
@@ -33,47 +33,98 @@
   </details>
   <details>
   <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#mathmathical-conversion'>Mathmathical Conversion </a></summary>
-    <ul>
-      <li><a href='  '></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-    </ul>
-  </details>
+    <details>
+    <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#angle-conversions'>Angle Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Length Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Area Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Volume Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Mass Conversion</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Velocity Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Pressure Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Energy Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Power Conversions</a></summary>   
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
+    <details>
+    <summary><a href=''>Temperature Conversions</a></summary>
+      <ul>
+        <li><a href=''></a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </details>
 </ul>
 </details>
 
