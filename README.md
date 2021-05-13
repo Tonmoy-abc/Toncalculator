@@ -28,8 +28,13 @@
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#cot'>Cot</a></li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#sec'>Sec</a></li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#cosec'>Cosec</a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#ncr'>nCr</a></li>
+    </ul>
+  </details>
+  <details>
+  <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#mathmathical-conversion'>Mathmathical Conversion </a></summary>
+    <ul>
+      <li><a href='  '></a></li>
       <li><a href=''></a></li>
       <li><a href=''></a></li>
       <li><a href=''></a></li>
@@ -119,11 +124,11 @@ result(dev(10,2))
 
 Output : 5
 ```
-## Squire:
-``` squire() ``` method is used to squire any numbers ```
+## Squre:
+``` square() ``` method is used to squire any numbers ```
 #### **Example:** 
 ```python
-result(squire(2))
+result(square(2))
 
 Output : 4
 ```
