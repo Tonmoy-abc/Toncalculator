@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 # Toncalculator
 It is a simple calulator for addition, subtraction, multiplication,division, squire, to the power, sqire root, log, factorial, sin, cos, tan, cot, sec, cosec, nCr etc.
 iThere are many mathmatical conversions.
@@ -5,7 +7,7 @@ iThere are many mathmatical conversions.
 ### Installation:
 **Firstly** you need to install the [```Toncalculator```](https://pypi.org/project/Toncalculator/) module by **```pip install Toncalculator```** command.
 Then you need to make a `.py` file or open python interpreter. **Finally** you can write you code.
-### Exammple
+### Example
 ```python
 import toncalculator
 
@@ -73,7 +75,7 @@ Output : 4
 ``` log() ``` method returns the natural logarithm of a number, or the logarithm of number to base.
 ### Syntx:
 ```python
-result(log(x, base))    
+log(x, base)
 ```
 ### Parameter Values
 | Parameter | Description |
@@ -82,7 +84,7 @@ result(log(x, base))
 | base | Optional. The logarithmic base to use. Default is 'e' |
 #### Example:
 ```python
-log(10)
+result(log(10))
 
 Output : 2.302585..............
 ```
@@ -92,14 +94,22 @@ The factorial() method returns the factorial of a number.
 Note: This method only accepts positive integers.
 
 The factorial of a number is the sum of the multiplication, of all the whole numbers, from our specified number down to 1. For example, the factorial of 6 would be 6 x 5 x 4 x 3 x 2 x 1 = 720
+
+### Syntx:
 ```python
-def factorial(x):
-    #return facetorial of x
-    factorial = 1
-    if x >= 1:
-        for i in range (1,x+1):
-            factorial = factorial * i
-    return factorial
+factorial(x)
+```
+
+### Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. A positive integer. If the number is negative, or not an integer, it returns a ValueError. If the value is not a number, it returns a TypeError |
+
+#### Example:
+```python
+result(factorial(3)):
+
+Output : 6
 ```
 ```python
 def sin(x):
