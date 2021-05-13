@@ -6,28 +6,28 @@
   <details>
     <summary>Intro</summary>
     <ul> 
-        <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#toncalculator#">Toncalculator</a></li> 
+        <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#toncalculator">Toncalculator</a></li> 
         <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#how-to-use">How To Use</a></li>       
     </ul>  
   </details>
   <details>
     <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#codes'>Codes</a></summary>
     <ul>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
-      <li><a href=''></a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#addition'>Addition</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#subtraction'>Subtraction</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#multiplication'>Multiplication</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#division'>Division</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#squire'>Squire</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#to-the-power'>To The Power</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#square-root'></a>Square Root</li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#log'>Log</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#factorial'>Factorial</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#sin'>Sin</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#cos'>Cos</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#tan'>Tan</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#cot'>Cot</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#sec'>Sec</a></li>
+      <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#cosec'>Cosec</a></li>
       <li><a href=''></a></li>
       <li><a href=''></a></li>
       <li><a href=''></a></li>
@@ -135,8 +135,8 @@ result(power(2,4))
 
 Output : 16
 ```
-## Sqire Root:
-``` sqroot() ``` method is used to squire root a number.
+## Square Root:
+``` sqroot() ``` method is used to square root a number.
 #### **Example:** 
 ```python
 result(sqroot(16))
@@ -317,7 +317,7 @@ Output : 1
 Output : -1
 ```
 
-## cosec: 
+## Cosec: 
 `cosec()` method returns the secant of a number.
 
 **Note:** To find the secant of degrees, it must first be converted into radians with the `degTored()` method (see example below).
