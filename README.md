@@ -89,9 +89,9 @@ result(log(10))
 Output : 2.302585..............
 ```
 ## Factorial:
-The factorial() method returns the factorial of a number.
+The `factorial()` method returns the factorial of a number.
 
-Note: This method only accepts positive integers.
+**Note:** This method only accepts positive integers.
 
 The factorial of a number is the sum of the multiplication, of all the whole numbers, from our specified number down to 1. For example, the factorial of 6 would be 6 x 5 x 4 x 3 x 2 x 1 = 720
 
@@ -111,20 +111,83 @@ result(factorial(3)):
 
 Output : 6
 ```
+## Sin:
+`sin()` method returns the sine of a number.
+
+**Note:** To find the sine of degrees, it must first be converted into radians with the `degTored()` method (see example below).
+
+## Syntx:
 ```python
-def sin(x):
-    #return sin of x
-    return math.sin(x)
+sin(x)
 ```
-```python
-def cos(x):
-    #return cos of x
-    return math.cos(x)
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. The number to find the sine of. If the value is not a number, it returns a TypeError |
+
+#### Example:
+``` python
+# It returns normally sin of 0 redian 
+result(sin(0))
+# sin() returns the sin of redian.
+# degTored() convers dgree to redian 
+result(sin(degTored(90)))
+
+Output : 0 
+Output : 1
 ```
+## Cos:
+`cos()` method returns the cosine of a number.
+
+**Note:** To find the cosine of degrees, it must first be converted into radians with the `degTored()` method (see example below).
+
+## Syntx:
 ```python
-def tan(x):
-    #return tan x
-    return math.tan(x)
+cos(x):
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. The number to find the sine of. If the value is not a number, it returns a TypeError |
+
+#### Example:
+``` python
+# It returns normally cosin of 0 redian 
+result(cos(0))
+# cos() returns the cosin of redian.
+# degTored() convers dgree to redian 
+result(cos(degTored(180)))
+
+Output : 1
+Output : -1
+```
+## Tan:
+`tan()` method returns the tan of a number.
+
+**Note:** To find the tan of degrees, it must first be converted into radians with the `degTored()` method (see example below).
+
+## Syntx:
+```python
+tan(x):
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. The number to find the tangent of. If the value is not a number, it returns a TypeError |
+
+#### Example:
+``` python
+# It returns normally tangent of 0 redian 
+result(tan(0))
+# tan() returns the cosin of redian.
+# degTored() convers dgree to redian 
+result(tan(degTored(10)))
+
+Output : 0
+Output : 0.176326......
 ```
 ```python
 def cot(x):
