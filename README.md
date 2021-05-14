@@ -6,13 +6,12 @@
   <details>
     <summary>Intro</summary>
     <ul> 
-        <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#toncalculator">Toncalculator</a></li> 
-        <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#how-to-use">How To Use</a></li>       
+      <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#toncalculator">Toncalculator</a></li> 
+      <li><a href="https://github.com/Tonmoy-abc/Toncalculator/#how-to-use">How To Use</a></li>       
     </ul>  
   </details>
   <details>
     <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#codes'>Codes</a></summary>
-    <ul>
     <ul>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#addition'>Addition</a></li>
       <li><a href='https://github.com/Tonmoy-abc/Toncalculator/#subtraction'>Subtraction</a></li>
@@ -34,6 +33,7 @@
   </details>
   <details>
   <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#mathmathical-conversion'>Mathmathical Conversion </a></summary>
+  <ul>
     <details>
     <summary><a href='https://github.com/Tonmoy-abc/Toncalculator/#angle-conversions'>Angle Conversions</a></summary>
       <ul>
@@ -126,7 +126,8 @@
         <li><a href=''></a></li>
       </ul>
     </details>
-</ul>
+  </ul>
+  </details>
 </ul>
 </details>
 
@@ -418,8 +419,8 @@ nCr(n,r)
 ## Parameter Values:
 | Parameter | Description |
 | --- | --- |
-| n | Required. Type integer  |
-| r | Required. Type integer  |
+| n | Required. Type integer |
+| r | Required. Type integer |
 
 ```python
 result(nCr(9,3))
@@ -430,54 +431,174 @@ Output : 84
 
 ## Angle Conversions ##
 
+## Dgree To Radian
+
+`degTored()` method returns dgree to radian.
+
+## Syntx
+```python
+degTored(x)
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` dgree |
+
+## Example
 ```python 
-def degTored(x):
-    #return x degree to radin
-    red = (x*math.pi/180)
-    return red
+result(degTored(180))
+ 
+Output : 3.1416   
 ```
+
+## Radian To Dgree 
+
+`redTodeg()` method returns radian to dgree.
+
+## Syntx
 ```python
-def redTodeg(x):
-    #return x radian to degree
-    deg = (x*180/math.pi)
-    return deg
+redTodeg(x)
 ```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` radian |
+
+## Example
+```python 
+result(redTodeg(1))
+ 
+Output : 57.297795
+```
+
+## Dgree To Minute
+
+`degTomin()` method returns dgree to minute.
+
+## Syntx
 ```python
-def degTomin(x):
-    #return x dgree to minute
-    min = x*60
-    return min
+degTomin(x)
 ```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` dgree |
+
+## Example
 ```python
-def minTodeg(x):
-    #return x minute to degree
-    deg = x/60
-    return deg
+result(degTomin(1))
+
+Output : 60
 ```
+
+## Minute to Degree
+
+`minTodeg()` method returns minute to dgree.
+
+## Syntx
 ```python
-def degTosec(x):
-    #return x dgree to second 
-    sec = x*3600
-    return sec
+minTodeg(x)
 ```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` minute |
+
+## Example
 ```python
-def secTodeg(x):
-    #return x second to degree
-    deg = x/3600
-    return deg
+result(minTodeg(60))
+
+Output : 1
 ```
+
+## Degree to Second
+
+`degTosec()` method returns dgree to second.
+
+## Syntx
 ```python
-def minTosec(x):
-    #return x minute to second
-    sec = x*60
-    return sec
+degTosec(x)
 ```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` dgree |
+
+## Example
 ```python
-def secTomin(x):
-    #return x second to minute  
-    min = x/60
-    return min
+result(degTosec(1))
+
+Output : 3600
 ```
+
+## Second to Dgree
+
+`secTomin()` method returns second to dgree.
+
+## Syntx
+```python
+secTodeg(x)
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` second |
+
+## Example
+```python
+result(secTodeg(3600))
+
+Output : 1
+```
+
+## Minute to Second
+
+`minTosec()` method returns minute to second .
+
+## Syntx
+```python
+minTosec(x)
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` minute |
+
+## Example
+```python
+result(minTosec(1))
+
+Output : 60
+```
+
+## Second To Minute
+
+`secTomin()` method returns second to minute.
+
+## Syntx
+```python
+secTomin(x)
+```
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` second |
+
+## Example
+```python
+result(secTomin(60))
+
+Output : 1
+```
+
 ```python
 ## Length Conversions ##
 def inTocm(x):
