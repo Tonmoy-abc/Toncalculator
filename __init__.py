@@ -1,15 +1,30 @@
 import math
 
+
 #### Print any number ####
+def __version__():
+    return "0.0.6"
+
+def __info__():
+    return {
+        "degit" : "unlimited",
+        "degit_before_decimal": 15,
+        "coder" : "Mahmudul Hasan Tonmoy",
+        "made_in" : "bangladesh",
+        ""
+    }
 
 def result(x):
     if x == int(x):
         print(int(x))
     elif x == float(x):
-        print(float(x))
+        if math.ceil(x) != 0:
+            print(float(x))
+        else:
+            print(int(x))
     elif x == complex(x):
         print(x)
-
+result(len(str(3.000000000000001)))
 #### Simple Mathmatical Functions ####
 
 def add(x,y):
@@ -28,7 +43,7 @@ def dev(x,y):
     #return x divided by y
     return x/y
 
-def squire(x):
+def square(x):
     #return squire of x
     return x*x
 
@@ -200,29 +215,19 @@ def msqToacer(x):
     return x*0.000247105
 
 ## Volume Conversions ##  
-def galToL(type, x):
+def galToL(x):
     #return x galon to liter you must select type here US or UK
-    if type == "US" or "us" or "Us":
-        return x*3.785412
-    elif type == "Uk" or "UK" or "uk":
-        return x*4.54609
-    else:
-        if type == None or type == "":
-            print("[-] Error 404 type is empty")
-        else:
-            print("[-] Error you are not setected US or UK")
-    
+    return {
+        "us" : x*3.785412,
+        "uk" : x*4.54609
+        }
+         
 def LTogal(type, x):
     #return x liter to galon you must select type here US or UK
-    if type == "US" or "us" or "Us":
-        return x/3.785412
-    elif type == "Uk" or "UK" or "uk":
-        return x/4.54609
-    else:
-        if type == None or type == "":
-            print("[-] Error 404 type is empty")
-        else:
-            print("[-] Error you are not setected US or UK")
+    return { 
+        "us" :x/3.785412,
+        "uk" : x/4.54609
+        }
     
 ## Mass Conversions ##
 def ozTog(x):
