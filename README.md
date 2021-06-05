@@ -599,37 +599,100 @@ result(secTomin(60))
 Output : 1
 ```
 
+
+## Length Conversions 
+
+## inches to centimeters
+
+`inTocm()` method returns inches to centimeters.
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` inches |
+
+## Example
 ```python
-## Length Conversions ##
-def inTocm(x):
-    #return x inches to centimeters
-    return x*2.54
+result(inTocm(100))
+
+Output : 254
 ```
+
+## centimeters to inches
+
+`cmToin()` method returns inches to centimeters.
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` centimeters |
+
+## Example
 ```python
-def cmToin(x):
-    #return x centimeters to inches
-    return x/2.54  
+result(inTocm(254))
+
+Output : 100
 ```
+
+## feet to meters
+`ftTom(x)` method returns feet to meters.
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` feet |
+
+## Example
 ```python
-def ftTom(x):
-    #return x feet to meters
-    return x*0.3048
+result(ftTom(100))
+
+Output : 30.48
 ```
+
+## feet to meters
+`mToft(x)` method returns meters to feet.
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` meters |
+
+## Example
 ```python
-def mToft(x):
-    #return x meters to feet 
-    return x/0.3048
+result(mToft(1))
+
+Output : 3.280839895013123
 ```
+## yard to meter
+`mToft(x)` method returns yard to meter.
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x`  yard |
+
+## Example
 ```python
-def ydTom(x):
-    #return x yard to meter
-    return x*0.9144
+result(ydTom(1))
+
+Output : 0.9144
 ```
+
+## meter to yard
+`mToft(x)` method returns meter to yard.
+
+## Parameter Values:
+| Parameter | Description |
+| --- | --- |
+| x | Required. `x` means `x` meter |
+
+## Example
 ```python
-def mToyd(x):
-    #return x meter to yard
-    return x/0.9144
+result(ydTom(1))
+
+Output : 1.0936132983377078
 ```
+
 ```python
 def mileTokm(x):
     #return x mile to kilometre
